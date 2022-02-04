@@ -1,0 +1,13 @@
+[programs.localnet]
+fib = "4njC5D9uNCm95t6xo2pPvMdfzvFByNKXZJ2htEVpzACv"
+[programs.devnet]
+fib = "4njC5D9uNCm95t6xo2pPvMdfzvFByNKXZJ2htEVpzACv"
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "http://localhost:8899"
+wallet = "/home/zfaizal/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
